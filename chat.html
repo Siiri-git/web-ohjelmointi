@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <title>Chat Page</title>
+    <link rel="stylesheet" href="chat.css">
+</head>
+
+<body>
+
+<header>
+<h1>CHAT PAGE</h1>
+</header>
+
+<ul>
+  <li><a href="index.html">HOME</a></li>
+</ul>
+
+<main>
+<form action="sendComment" method="post">
+    <br>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="bday">Birthday:</label>
+    <input type="date" id="bday" name="bday" required><br><br>
+    <label for="type">Choose a message type:</label>
+    <select name="type" id="type" required>
+    <option value="question">Question</option>
+    <option value="comment">Comment</option>
+    </select>
+    <br><br>
+    <input type="checkbox" id="permission" name="permission" value="yes" required>
+    <label for="permission">Given information can be used for marketing purposes</label><br>
+    <p><label for="messages">Message:</label></p>
+    <textarea id="messages" name="messages" rows="4" cols="50"></textarea>
+    <p>(fake submit, don't press)</p>
+    <input type="submit" value="Submit">
+</form>
+</main>
+<h1 style="text-align: center; color: #FDAED5;">CHAT SECTION</h1>
+<section>
+    <h2>horomura@NOTmagicalgirl.com</h2>
+    <h3>"Pliiis Madoka take me back on ikävä !!!!"</h3>
+    <h4>- Sent on 10.9.2001. at 1.57PM</h4>
+</section>
+<section>
+    <h2>horomura@NOTmagicalgirl.com</h2>
+    <h3>"Whoopsie >_<"</h3>
+    <h4>- Sent on 11.9.2001. at 8.46AM</h4>
+</section>
+<section>
+    <h2>madokakaneme@magicalgirl.com</h2>
+    <h3>"Meow =^..^="</h3>
+    <h4>- Sent on 12.12.2012. at 12.12PM</h4>
+</section>
+<section>
+    <h2>eisiiri@fakegmail.fi</h2>
+    <h3>"On nälkä ja tosi lesbo olo"</h3>
+    <h4>- Sent on 16.10.2026. at 6.09AM</h4>
+</section>
+<section>
+    <h2>roniponi@realgmail.com</h2>
+    <h3>"Uuuuu rakastan reddittiä olen reddit addikti (˶˃𐃷˂˶)"</h3>
+    <h4>- Sent on 18.2.2026. at 1.20PM</h4>
+</section>
+<section>
+    <h2>Maire</h2>
+    <h3>"Smetana Laitoin yv."</h3>
+    <h4>- Sent on 1.1.1. at 1.00PM</h4>
+    <hr>
+    <h2>^Reply to Maire</h2>
+    <h2>Svetlana</h2>
+    <h3>"Maire olen Svetlana &#128512;"</h3>
+    <h4>- Sent on 1.1.1. at 1.05PM</h4>
+</section>
+</body>
+</html>
