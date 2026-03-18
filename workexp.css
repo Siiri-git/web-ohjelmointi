@@ -28,3 +28,25 @@ article {
 p {
     font-size: 20px;
 }
+ul {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;  
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #CFE6B9;
+  display: flex;
+  margin-top: 20px;
+}
+ul li a {
+  display: block;
+  color: #FDAED5;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul li a:hover {
+  background-color: #B6DB92;
+  color: #fcf5e1;
+}

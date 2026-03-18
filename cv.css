@@ -19,3 +19,24 @@ li {
 a {
     color: rgb(192, 103, 144);
 }
+ul1 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;  
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(252, 186, 217);
+  display: flex;
+}
+ul1 li a {
+  display: block;
+  color: rgb(192, 103, 144);
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul1 li a:hover {
+  background-color: rgb(209, 130, 167);
+  color: #FFFF;
+}
