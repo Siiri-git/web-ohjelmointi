@@ -11,3 +11,20 @@
 .testbtn:hover {
   background-color: rgb(241, 146, 191);
 }
+article {
+  border-style: solid;
+  border-color: #3E2723;
+  width: 800px;
+  margin-left: 50px;
+  margin-top: 1px;
+  background: #F4C9D6;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 0px;
+  color: #FFFAEB;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
