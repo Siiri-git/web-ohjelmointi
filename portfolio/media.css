@@ -65,3 +65,19 @@ aside {
   margin-left: auto;
   margin-top: 20px;
 }
+.testbtn {
+  background-color: #FCC7D9;
+  color: rgb(255, 255, 255);
+
+  font-size: 15px;
+  padding: 12px;
+
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+  
+}
+.testbtn:hover {
+  background-color: #FDAED5;
+}
