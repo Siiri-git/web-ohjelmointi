@@ -1,7 +1,10 @@
 body {
-    background-color: #fcf5e1;
+    background-color: #FCC7D9;
     margin: 0;
     padding: 0;
+}
+main {
+  margin: 20px;
 }
 ul {
   position: -webkit-sticky;
@@ -11,33 +14,54 @@ ul {
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: #CFE6B9;
+  background-color: #FFA6C9;
   display: flex;
 }
 ul li a {
   display: block;
-  color: #FDAED5;
+  color: #E9CCED;
   padding: 14px 16px;
   text-decoration: none;
 }
 ul li a:hover {
-  background-color: #B6DB92;
-  color: #fcf5e1;
+  background-color: #D6B8E6;
+  color: #FCE6F4;
 }
 article {
   border-style: dotted;
-  border-color: #FDAED5;
+  border-color: #B19CD9;
   border-radius: 8px;
 
   width: 45%;
-  background: #B6DB92;
+  background-color: #FFA6C9;
   
   padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 40px;
 
   text-align: center;
-  color: #fcf5e1;
+  color: #FCE6F4;
 
-  margin-top: 3.5%;
-  margin-left: auto;
+  margin-top: 20px;
+  margin-left: 4%;
   margin-right: auto;
+}
+aside {
+  border-style: dotted;
+  border-color: #B19CD9;
+  border-radius: 8px;
+
+  text-align: center;
+  float: right;
+  width: 40%;
+  background-color: #FFA6C9;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin-right: 4%;
+  margin-left: auto;
+  margin-top: 20px;
 }
