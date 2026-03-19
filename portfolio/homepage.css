@@ -20,16 +20,16 @@ body {
 article {
   border-style: dotted;
   border-color: #FDAED5;
-  width: 800px;
-  margin-left: 50px;
-  margin-top: 1px;
-  background: #B6DB92;
-  padding: 10px;
   border-radius: 8px;
+
+  width: 45%;
+  background: #B6DB92;
+  
+  padding: 10px;
+
   text-align: center;
-  padding-bottom: 20px;
-  padding-top: 0px;
   color: #fcf5e1;
+
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
