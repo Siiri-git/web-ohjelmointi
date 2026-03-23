@@ -37,17 +37,9 @@ ul li a:hover {
   color: #fcf5e1;
 }
 main{
-  border-style: dotted;
-  border-color: #FDAED5;
   width: 800px;
-  background: #CFE6B9;
-  padding: 10px;
-  border-radius: 8px;
   text-align: left;
-  padding-bottom: 20px;
-  padding-top: 0px;
   color: #FDAED5;
-  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -72,4 +64,10 @@ button.a {
   height: 40px;
   background-color: #FDAED5;
   border-color: #FDD2E5;
+}
+dialog {
+  border-style: dotted;
+  border-color: #FDAED5;
+  border-radius: 8px;
+  background-color: #CFE6B9;
 }
