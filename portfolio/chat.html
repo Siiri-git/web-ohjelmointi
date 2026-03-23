@@ -21,29 +21,37 @@
   <li><a href="media.html">MADOKA'S WISH</a></li>
 </ul>
 
-<main>
-<form action="sendComment" method="post">
-    <br>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required><br><br>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required><br><br>
-    <label for="bday">Birthday:</label>
-    <input type="date" id="bday" name="bday" required><br><br>
-    <label for="type">Choose a message type:</label>
-    <select name="type" id="type" required>
-    <option value="question">Question</option>
-    <option value="comment">Comment</option>
-    </select>
-    <br><br>
-    <input type="checkbox" id="permission" name="permission" value="yes" required>
-    <label for="permission">Given information can be used for marketing purposes</label><br>
-    <p><label for="messages">Message:</label></p>
-    <textarea id="messages" name="messages" rows="4" cols="50"></textarea>
-    <p>(fake submit, don't press)</p>
-    <input type="submit" value="Submit">
-</form>
-</main>
+<button class="a" style="margin-left: 48%; margin-top: 20px;" command="show-modal" commandfor="chat">Open Form</button>
+
+<dialog id="chat">
+    <main> 
+    <button class="a" commandfor="chat" command="close">Close</button>
+    <form method="post">
+        <br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="bday">Birthday:</label>
+        <input type="date" id="bday" name="bday" required><br><br>
+        <label for="type">Choose a message type:</label>
+        <select name="type" id="type" required>
+        <option value="question">Question</option>
+        <option value="comment">Comment</option>
+        </select>
+        <br><br>
+        <input type="checkbox" id="permission" name="permission" value="yes" required>
+        <label for="permission">Given information can be used for marketing purposes</label><br>
+        <p><label for="messages">Message:</label></p>
+        <textarea id="messages" name="messages" rows="4" cols="50"></textarea>
+        <p>(fake submit, don't press)</p>
+        <input type="submit" value="Submit">
+        <br>
+       
+    </form>
+    </main>
+</dialog>
+
 <h1 style="text-align: center; color: #FDAED5;">CHAT SECTION</h1>
 <section>
     <h2>horomura@NOTmagicalgirl.com</h2>
