@@ -24,6 +24,7 @@ ul li a {
   text-decoration: none;
 }
 ul li a:hover {
+  scale: 1.1;
   background-color: #D6B8E6;
   color: #FCE6F4;
 }

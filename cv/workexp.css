@@ -47,6 +47,7 @@ ul li a {
   text-decoration: none;
 }
 ul li a:hover {
+  scale: 1.1;
   background-color: #B6DB92;
   color: #fcf5e1;
 }
