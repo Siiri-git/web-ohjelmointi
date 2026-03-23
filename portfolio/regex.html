@@ -15,18 +15,32 @@
 
 <form method="post">
 <label for="carReg">Car's Registration: </label>
-<input type="text" id="carReg" name="carReg" pattern="[A-Z]{3}-[0-9]{3}" title="Car's Registration">
+<input type="text" id="carReg" name="carReg" 
+pattern="[A-Z]{3}-[0-9]{3}" placeholder="ABC-123">
 
 <br><br>
 
 <label for="idNum">Finnish ID number: </label>
-<input type="text" id="idNum" name="idNum" pattern="[0-9]{6}A[0-9]{3}[A-Z]" title="Identification">
+<input type="text" id="idNum" name="idNum" 
+pattern="[0-9]{6}A[0-9]{3}[A-Z]" placeholder="123456A123B">
 
 <br><br>
 
 <label for="date">Date: </label>
 <input type="text" id="date" name="date" 
-pattern="[0-9]{1,2}\.(([0-9]{1,2}\.[0-9]{4})|([a-öA-Ö]{1,} [0-9]{4}))" title="Date">
+pattern="[0-9]{1,2}\.(([0-9]{1,2}\.[0-9]{4})|([a-öA-Ö]{1,} [0-9]{4}))" placeholder="12.12.2012 / 12. m 2012">
+
+<br><br>
+
+<label for="phone">Phone: </label>
+<input type="text" id="phone" name="phone"
+pattern="((+\[0-9]{3})|([A-Za-a-0-9]{0}))[0-9]{9,10}" placeholder="(+123) 123 456 789">
+
+<br><br>
+
+<label for="htmlElem">HTML Element: </label>
+<input type="text" id="htmlElem" name="htmlElem"
+pattern="&lt;[^\/].+&gt;.+&lt;\/.+&gt;" placeholder="<h1> text </h1>">
 
 <br><br>
 <input type="submit" value="Submit">
