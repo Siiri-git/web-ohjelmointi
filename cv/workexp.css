@@ -38,7 +38,7 @@ ul {
   padding: 0;
   background-color: #CFE6B9;
   display: flex;
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 ul li a {
   display: block;
@@ -51,7 +51,6 @@ ul li a:hover {
   background-color: #B6DB92;
   color: #fcf5e1;
 }
-
 details > summary {
   color: rgb(192, 103, 144);
   padding: 4px;
