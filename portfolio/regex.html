@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="regex, forms, extra">
+    <meta name="description" content="Kamala regex sivu">
+    <meta name="author" content="Siiri">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+    <title>regex</title>
+    <link rel="stylesheet" href="regex.css">
+</head>
+
+<body>
+
+<form method="post">
+<label for="carReg">Car's Registration: </label>
+<input type="text" id="carReg" name="carReg" pattern="[A-Z]{3}-[0-9]{3}" title="Car's Registration">
+
+<br><br>
+
+<label for="idNum">Finnish ID number: </label>
+<input type="text" id="idNum" name="idNum" pattern="[0-9]{6}A[0-9]{3}[A-Z]" title="Identification">
+
+<br><br>
+
+<label for="date">Date: </label>
+<input type="text" id="date" name="date" pattern="[0-9]{1,2}.[0-9]{1,2}.[0-9]{4}" title="Date">
+
+<br><br>
+<input type="submit" value="Submit">
+</form>
+
+</body>
+
+</html>
