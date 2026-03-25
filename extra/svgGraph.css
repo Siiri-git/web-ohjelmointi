@@ -1,0 +1,30 @@
+article {
+  border-style: solid;
+  border-color: black;
+
+  width: 45%;
+  background: white;
+  
+  padding: 10px;
+
+  color: black;
+
+  margin-top: 20px;
+  margin-left: 0;
+  margin-right: auto;
+}
+article.b {
+  border-style: solid;
+  border-color: black;
+
+  width: 45%;
+  background: white;
+  
+  padding: 10px;
+
+  color: black;
+
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: 0;
+}
