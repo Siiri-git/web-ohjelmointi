@@ -1,8 +1,11 @@
+/* Body */
 body {
     background-color: #fcf5e1;
     margin: 0;
     padding: 0;
 }
+
+/* Meow Button */
 .testbtn {
   background-color: #FDD2E5;
   color: rgb(255, 255, 255);
@@ -17,6 +20,8 @@ body {
 .testbtn:hover {
   background-color: #FDAED5;
 }
+
+/* Article */
 article {
   border-style: dotted;
   border-color: #FDAED5;
@@ -34,6 +39,8 @@ article {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Header */
 header {
     font-family: "Gentium Plus", serif;
     font-weight: 800;
@@ -44,6 +51,8 @@ header {
     font-size: 25px;
     text-align: center;
 }
+
+/* Navigation Bar */
 ul.a {
   position: -webkit-sticky;
   position: sticky;
@@ -66,12 +75,16 @@ ul.a li a:hover {
   background-color: #B6DB92;
   color: #fcf5e1;
 }
+
+/* h2 class a */
 h2.a {
   font-size: 30px;
   margin-top: 1%;
   text-align: center;
   color: #FDAED5;
 }
+
+/* h2 class b */
 h2.b {
   color: #fcf5e1;
 }
