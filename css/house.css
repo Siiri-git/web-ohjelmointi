@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 50px;
+}
+
+table, th, td {
+  border-collapse: collapse;
+}
+
+tr {
+    height: 50px;
+}
+
+/* Class A */
+td.a {
+    background-color: red; 
+    border-color: black;
+    border-width: 3px;
+
+}
+th.a {
+    background-color: red; 
+    border-color: black;
+    border-width: 3px;    
+}
+
+/* Class B */
+td.b {
+    background-color: green; 
+    border-color: black;
+    border-width: 3px;
+
+}
+th.b {
+    background-color: green; 
+    border-color: black;
+    border-width: 3px;    
+}
+
+/* Class C */
+td.c {
+    background-color: blue; 
+    border-color: black;
+    border-width: 3px;
+
+}
+th.c {
+    background-color: blue; 
+    border-color: black;
+    border-width: 3px;    
+}
+
+/* Class D */
+td.d {
+    background-color: yellow; 
+    border-color: black;
+    border-width: 3px;
+
+}
+th.d {
+    background-color: yellow; 
+    border-color: black;
+    border-width: 3px;    
+}
+
+/* Class E */
+td.e {
+    background-color: pink; 
+    border-color: black;
+    border-width: 3px;
+
+}
+th.e {
+    background-color: pink; 
+    border-color: black;
+    border-width: 3px;    
+}
+
+/* Class F */
+td.f {
+    background-color: orange; 
+    border-color: black;
+    border-width: 3px;
+
+}
+th.f {
+    background-color: orange; 
+    border-color: black;
+    border-width: 3px;    
+}
