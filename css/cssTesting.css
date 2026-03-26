@@ -32,7 +32,6 @@ section {
     padding-bottom: 1%;
     background-color: #FBEAD6;
     border-color: #FBEAD6;
-    border-radius: 8px;
 }
 
 /* Navigation Bar */
@@ -57,4 +56,15 @@ ul li a:hover {
   scale: 1.1;
   background-color: #F0C4CB;
   color: #C87D87;
+}
+
+/* Header */
+header {
+    font-family: "Gentium Plus", serif;
+    font-weight: 800;
+    font-style: normal;
+    background-color: #6B7556;
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
 }

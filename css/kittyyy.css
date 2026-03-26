@@ -26,3 +26,14 @@ ul li a:hover {
   background-color: #014479;
   color: #fcf5e1;
 }
+
+header {
+  font-family: "Gentium Plus", serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #FDAED5;
+  background-color: #014479;
+  padding: 0;
+  font-size: 25px;
+  text-align: center;
+}
