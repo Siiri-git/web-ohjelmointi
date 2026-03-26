@@ -17,78 +17,78 @@ tr {
 
 /* Class A */
 td.a {
-    background-color: red; 
+    background-color: #FF8840; 
     border-color: black;
     border-width: 3px;
 
 }
 th.a {
-    background-color: red; 
+    background-color: #FF8840; 
     border-color: black;
     border-width: 3px;    
 }
 
 /* Class B */
 td.b {
-    background-color: green; 
+    background-color: #FFBB63; 
     border-color: black;
     border-width: 3px;
 
 }
 th.b {
-    background-color: green; 
+    background-color: #FFBB63; 
     border-color: black;
     border-width: 3px;    
 }
 
 /* Class C */
 td.c {
-    background-color: blue; 
+    background-color: #FF5969; 
     border-color: black;
     border-width: 3px;
 
 }
 th.c {
-    background-color: blue; 
+    background-color: #FF5969; 
     border-color: black;
     border-width: 3px;    
 }
 
 /* Class D */
 td.d {
-    background-color: yellow; 
+    background-color: #DB2265; 
     border-color: black;
     border-width: 3px;
 
 }
 th.d {
-    background-color: yellow; 
+    background-color: #DB2265; 
     border-color: black;
     border-width: 3px;    
 }
 
 /* Class E */
 td.e {
-    background-color: pink; 
+    background-color: #FFD899; 
     border-color: black;
     border-width: 3px;
 
 }
 th.e {
-    background-color: pink; 
+    background-color: #FFD899; 
     border-color: black;
     border-width: 3px;    
 }
 
 /* Class F */
 td.f {
-    background-color: orange; 
+    background-color: #FE97B0; 
     border-color: black;
     border-width: 3px;
 
 }
 th.f {
-    background-color: orange; 
+    background-color: #FE97B0; 
     border-color: black;
     border-width: 3px;    
 }
