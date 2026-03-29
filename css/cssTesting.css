@@ -48,14 +48,12 @@ ul {
 }
 ul li a {
   display: block;
-  color: #FBEAD6;
   padding: 14px 16px;
   text-decoration: none;
 }
 ul li a:hover {
   scale: 1.1;
   background-color: #F0C4CB;
-  color: #C87D87;
 }
 
 /* Header */
@@ -67,4 +65,38 @@ header {
     padding: 5px;
     font-size: 25px;
     text-align: center;
+}
+
+/* a-element */
+a {
+    color: #FBEAD6;
+}
+
+a:hover {
+    color: #ffaf54;
+}
+
+a:visited {
+    color: grey;
+}
+
+/* Buttons */
+
+button {
+    background-color: #FBEAD6;
+    color: black;
+}
+
+button:hover {
+    background-color: #ffaf54;
+}
+
+/* Forms */
+form input:focus {
+    background-color: lightyellow;
+}
+
+/* Lists */
+li:last-child {
+    font-style: italic;
 }
