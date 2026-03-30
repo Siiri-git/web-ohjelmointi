@@ -33,17 +33,28 @@ header {
 /* Navigation Bar Side */
 
 section {
-    background-color: #B6DB92;
-    grid-area: section;
+  background-color: #B6DB92;
+  grid-area: section;
 }
 ul.a {
   list-style-type: none;
 }
-
+ul.a li {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+ul.a li a {
+  color: #85b159;
+  text-decoration: none;
+}
+ul.a li a:hover {
+  color: #FCF5E1;
+}
 
 /* Main Area */
 
 main {
+    padding: 20px;
     background-color: #FCF5E1;
     grid-area: main;
 }
@@ -51,6 +62,7 @@ main {
 /* Footer */
 
 footer {
+    padding-left: 10px;
     background-color: #FDAED5;
     grid-area: footer;
 }
@@ -87,4 +99,20 @@ ul.b li a {
 ul.b li a:hover {
   background-color: #fac2de;
   color: #FCF5E1;
+}
+
+/* Text */
+@font-face {
+  font-family: "P Font";
+  src: url("../fonts/Delius-Regular.ttf");
+  font-weight: normal;
+}
+
+p, a, h2.b {
+  font-family: "P Font";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #FCF5E1;
+    font-family: "H Font";
 }
