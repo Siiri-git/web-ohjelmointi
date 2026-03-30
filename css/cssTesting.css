@@ -4,6 +4,22 @@ body {
     margin-right: 64px;
 }
 /* Fonts */
+@font-face {
+  font-family: "H Font";
+  src: url("../fonts/Chango-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "P Font";
+  src: url("../fonts/Delius-Regular.ttf");
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "H Font";
+}
+
 h1 {
     color: #C87D87;
     font-size: 60px;
@@ -21,6 +37,7 @@ h4 {
     font-size: 18px;
 }
 p {
+    font-family: "P Font";
     color: #6B7556;
 }
 
