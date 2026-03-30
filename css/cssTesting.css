@@ -114,6 +114,10 @@ form input:focus {
     background-color: lightyellow;
 }
 
+label {
+    font-family: "P Font";
+}
+
 /* Lists */
 li:last-child {
     font-style: italic;
