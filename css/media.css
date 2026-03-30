@@ -5,7 +5,7 @@ body {
 }
 @font-face {
   font-family: "H Font";
-  src: url("../fonts/Starshines.ttf");
+  src: url("../fonts/KiwiSoda.ttf");
   font-weight: normal;
 }
 header {
@@ -33,6 +33,7 @@ ul {
   display: flex;
 }
 ul li a {
+  font-family: "P Font";
   display: block;
   color: #E9CCED;
   padding: 14px 16px;
@@ -96,4 +97,10 @@ aside {
 }
 .testbtn:hover {
   background-color: #FDAED5;
+}
+
+@font-face {
+  font-family: "P Font";
+  src: url("../fonts/Delius-Regular.ttf");
+  font-weight: normal;
 }

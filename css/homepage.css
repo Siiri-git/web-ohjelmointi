@@ -118,3 +118,13 @@ ul.b li a:hover {
 h1, h2.a {
   font-family: "H Font";
 }
+
+@font-face {
+  font-family: "P Font";
+  src: url("../fonts/Delius-Regular.ttf");
+  font-weight: normal;
+}
+
+p, a, h2.b {
+  font-family: "P Font";
+}
