@@ -26,9 +26,13 @@ ul li a:hover {
   background-color: #014479;
   color: #fcf5e1;
 }
-
+@font-face {
+  font-family: "H Font";
+  src: url("../fonts/Starshines.ttf");
+  font-weight: normal;
+}
 header {
-  font-family: "Gentium Plus", serif;
+  font-family: "H Font";
   font-weight: 800;
   font-style: normal;
   color: #FDAED5;

@@ -5,9 +5,15 @@ body {
     background-color: #F1C8D6;
 }
 
+@font-face {
+  font-family: "H Font";
+  src: url("../fonts/Starshines.ttf");
+  font-weight: normal;
+}
+
 /* Header */
 header {
-    font-family: "Gentium Plus", serif;
+    font-family: "H Font";
     font-weight: 800;
     font-style: normal;
     color: #0D222F;
