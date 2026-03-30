@@ -107,3 +107,14 @@ ul.b li a:hover {
   background-color: #B6DB92;
   color: #fcf5e1;
 }
+
+/* Font */
+@font-face {
+  font-family: "H Font";
+  src: url("../fonts/Chango-Regular.ttf");
+  font-weight: normal;
+}
+
+h1, h2.a {
+  font-family: "H Font";
+}
