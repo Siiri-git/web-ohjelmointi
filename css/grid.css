@@ -1,6 +1,8 @@
 body {
+  max-width: 1000px;
+  max-height: 100vh;
+  overflow: hidden;
   margin: 0;
-  height: 100vh;
   display: grid;
   grid-template-areas:
     'header header header'
@@ -10,8 +12,7 @@ body {
 
   grid-template-columns:15em 4em 1fr;
 
-  grid-template-rows:10em 3em auto 5em;
-
+  grid-template-rows:10fr 3fr 20fr 5fr;
 }
 
 /* Header */
@@ -21,10 +22,14 @@ body {
   font-weight: normal;
 }
 header {
-    font-size: 30px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 3em;
+
     color: #FCF5E1;
     font-family: "H Font";
     text-align: center;
+    font-size: larger;
 
     background-color: #FDAED5;
     grid-area: header;
@@ -33,6 +38,9 @@ header {
 /* Navigation Bar Side */
 
 section {
+  padding-left: 3em;
+  padding-top: 2em;
+
   color: #85b159;
   background-color: #B6DB92;
   grid-area: section;
@@ -41,10 +49,10 @@ ul.a {
   list-style-type: none;
 }
 ul.a li {
-  margin-top: 5px;
-  margin-bottom: 10px;
+  padding-bottom: 2em;
 }
 ul.a li a {
+
   color: #85b159;
   text-decoration: none;
 }
@@ -56,8 +64,11 @@ ul.a li a:hover {
 
 main {
     color: #FDAED5;
-    padding-top: 20px;
-    padding-left: 20px;
+    overflow-y: scroll;
+    white-space: nowrap;
+    padding-top: 5em;
+    padding-left: 3em;
+
     background-color: #FCF5E1;
     grid-area: main;
 }
@@ -65,11 +76,24 @@ main {
 /* Footer */
 
 footer {
+    text-align: center;
+
+    padding-top: 1.5em;
+    padding-bottom: 3em;
     color: #FCF5E1;
-    padding-top: 15px;
-    padding-left: 10px;
+
     background-color: #FDAED5;
     grid-area: footer;
+}
+
+a.a {
+  margin-right: 2em;
+  color: #FCF5E1;
+  text-decoration: none;
+}
+
+a.a:hover {
+  color: #B6DB92;
 }
 
 /* Navigation Bar Top */
@@ -88,6 +112,9 @@ ul.b {
   padding: 0;
   background-color: #CFE6B9;
   display: flex;
+}
+ul.b li {
+  padding-left: 3em;
 }
 ul.b li a {
   display: block;
