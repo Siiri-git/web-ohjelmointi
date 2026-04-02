@@ -33,6 +33,7 @@ header {
 /* Navigation Bar Side */
 
 section {
+  color: #85b159;
   background-color: #B6DB92;
   grid-area: section;
 }
@@ -54,7 +55,9 @@ ul.a li a:hover {
 /* Main Area */
 
 main {
-    padding: 20px;
+    color: #FDAED5;
+    padding-top: 20px;
+    padding-left: 20px;
     background-color: #FCF5E1;
     grid-area: main;
 }
@@ -62,6 +65,8 @@ main {
 /* Footer */
 
 footer {
+    color: #FCF5E1;
+    padding-top: 15px;
     padding-left: 10px;
     background-color: #FDAED5;
     grid-area: footer;
