@@ -73,6 +73,18 @@ main {
     grid-area: main;
 }
 
+main div {
+  word-wrap: break-word;
+
+  padding-top: 10px;
+  padding-bottom: 30px;
+
+  width: 40%;
+
+  border-radius: 8px;
+  background-color: #CFE6B9;
+}
+
 /* Footer */
 
 footer {
