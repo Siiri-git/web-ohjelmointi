@@ -1,8 +1,4 @@
-body {
-    background-color: #E5BCA9;
-    margin-left: 64px;
-    margin-right: 64px;
-}
+
 /* Fonts */
 @font-face {
   font-family: "H Font";
@@ -16,26 +12,6 @@ body {
   font-weight: normal;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "H Font";
-}
-
-h1 {
-    color: #C87D87;
-    font-size: 60px;
-}
-h2 {
-    color: #C87D87;
-    font-size: 48px;
-}
-h3 {
-    color: #C87D87;
-    font-size: 32px;
-}
-h4 {
-    color: #C87D87;
-    font-size: 18px;
-}
 p {
     font-family: "P Font";
     color: #6B7556;
