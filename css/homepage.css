@@ -5,6 +5,12 @@ body {
     padding: 0;
 }
 
+main {
+  background-image: url(../images/polkadotbg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 /* Meow Button */
 .testbtn {
   background-color: #FDD2E5;
@@ -21,19 +27,20 @@ body {
   background-color: #FDAED5;
 }
 
-/* Article */
+/* Article / Assignments Box */
 article {
   border-style: dotted;
-  border-color: #FDAED5;
+  border-color: #fcf5e1;
   border-radius: 8px;
 
   width: 45%;
-  background: #B6DB92;
+  background-image: url(../images/greenbg.jpg);
+  background-repeat: repeat;
   
   padding: 10px;
 
   text-align: center;
-  color: #fcf5e1;
+  color: #7b995e;
 
   margin-top: 20px;
   margin-left: auto;
@@ -84,28 +91,23 @@ h2.a {
   color: #FDAED5;
 }
 
-/* h2 class b */
-h2.b {
-  color: #fcf5e1;
-}
+/* Assignment Box Texts */
 
 ul.b {
   top: 0;  
   list-style-type: none;
 
   padding: 0;
-  background-color: #B6DB92;
 }
 ul.b li a {
   display: block;
-  color: #fcf5e1;
+  color: #7b995e;
   padding: 14px 16px;
   text-decoration: none;
 }
 ul.b li a:hover {
   scale: 1.2;
-  background-color: #B6DB92;
-  color: #fcf5e1;
+  color: #7b995e;
 }
 
 /* Font */
