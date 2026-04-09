@@ -1,28 +1,45 @@
 /* Over 640px */
 @media screen and (min-width: 640px) {
   body {
-    background-color: #E5BCA9;
+    background-color: #F1C8D6;
     margin-left: 64px;
     margin-right: 64px;
 }
-  /* Headers */
+
+  /* Header */
+  header {
+    font-family: "H Font";
+    font-weight: 800;
+    font-style: normal;
+    background-color: #F178A1;
+    padding: 0.1%;
+    font-size: 25px;
+    text-align: center;
+}
+
+  /* Header Text */
+  @font-face {
+  font-family: "H Font";
+  src: url("../fonts/Starshines.ttf");
+  font-weight: normal;
+}
   h1 {
-    color: #C87D87;
+    color: #0D222F;
     font-size: 32px;
     font-family: "H Font";
 }
   h2 {
-    color: #C87D87;
+    color: #0D222F;
     font-size: 26px;
     font-family: "H Font";
 }
   h3 {
-    color: #C87D87;
+    color: #0D222F;
     font-size: 22px;
     font-family: "H Font";
 }
   h4 {
-    color: #C87D87;
+    color: #0D222F;
     font-size: 18px;
     font-family: "H Font";
 }
@@ -33,50 +50,66 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #0D222F;
 }
   ul li {
   float: left;
 }
   ul li a {
   display: block;
-  color: white;
+  color: #F178A1;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
   ul li a:hover {
-  background-color: #111111;
+  background-color: #142d3b;
+  color: #F1C8D6;
 }
-
-
 }
 
 /* Under 640px */
 @media screen and (max-width: 640px) {
   body {
-    background-color: #E5BCA9;
+    background-color: #F1C8D6;
     margin-left: 16px;
     margin-right: 16px;
 }
-  /* Headers */
+
+  /* Header */
+  header {
+    font-family: "H Font";
+    font-weight: 800;
+    font-style: normal;
+    background-color: #F178A1;
+    padding: 0.1%;
+    font-size: 25px;
+    text-align: center;
+}
+
+  /* Header Text */
+  @font-face {
+  font-family: "H Font";
+  src: url("../fonts/Starshines.ttf");
+  font-weight: normal;
+}
   h1 {
-    color: #C87D87;
+    color: #0D222F;
     font-size: 32px;
     font-family: "H Font";
 }
   h2 {
-    color: #C87D87;
+    color: #0D222F;
     font-size: 26px;
     font-family: "H Font";
 }
   h3 {
-    color: #C87D87;
+    color: #0D222F;
     font-size: 22px;
     font-family: "H Font";
 }
   h4 {
-    color: #C87D87;
+    color: #0D222F;
     font-size: 18px;
     font-family: "H Font";
 }
@@ -87,20 +120,19 @@
   margin: 0;
   padding: 0;
   width: 130px;
-  background-color: #f1f1f1;
+  background-color: #0D222F;
   position: fixed;
   height: 100%;
   overflow: auto;
 }
   ul li a {
   display: block;
-  color: black;
+  color: #F178A1;
   padding: 8px 16px;
   text-decoration: none;
 }
   ul li a:hover {
-  background-color: #555555;
-  color: white;
+  background-color: #142d3b;
+  color: #F1C8D6;
 }
-
 }
