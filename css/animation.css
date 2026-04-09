@@ -1,0 +1,157 @@
+/* Moving Cubes */
+div.a {
+    width: 100px;
+    height: 100px;
+    background-color: #FDAED5;
+    position: relative;
+    animation-name: movingCubes;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+div.b {
+    width: 100px;
+    height: 100px;
+    background-color: #B6DB92;
+    position: relative;
+    animation-name: movingCubes;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+div.c {
+    width: 100px;
+    height: 100px;
+    background-color: #fae8b7;
+    position: relative;
+    animation-name: movingCubes;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes movingCubes {
+    0% {left: 0px; top: 0px;}
+    50% {left: 95%; top: 0px;}
+    100% {left: 0px; top: 0px;}
+}
+
+/* spinny loader */
+
+.spin {
+    width: 100px;
+    height: 100px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* stripe loader */
+.stripeLoader {
+  width: calc(160px / 0.707);
+  height: 28px;
+  background: repeating-linear-gradient(-45deg, #FDAED5 0 30px,#0000 0 40px) right/200% 100%;
+  animation: stripeLoader 4s infinite linear;
+  border-radius: 10px;
+  border: 1px solid #FDAED5;
+}
+@keyframes stripeLoader {
+  100% {
+    background-position: left
+  }
+}
+
+/* Tower Loader */ 
+.towerLoader { /* Animation */
+ --speed-of-animation: 4s;
+ --gap: 6px;
+ --first-color: #FDAED5;
+ --second-color: #B6DB92;
+ --third-color: #fae8b7;
+ --fourth-color: #B6DB92;
+ --fifth-color: #FDAED5;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100px;
+ gap: 6px;
+ height: 100px;
+}
+.towerLoader span { 
+ border-radius: 8px;
+ width: 8px;
+ height: 80px;
+ background: var(--first-color);
+ animation: scale var(--speed-of-animation) ease-in-out infinite;
+}
+.towerLoader span:nth-child(2) {
+ background: var(--second-color);
+ animation-delay: -3.9s;
+}
+.towerLoader span:nth-child(3) {
+ background: var(--third-color);
+ animation-delay: -3.8s;
+}
+.towerLoader span:nth-child(4) {
+ background: var(--fourth-color);
+ animation-delay: -3.7s;
+}
+.towerLoader span:nth-child(5) {
+ background: var(--fifth-color);
+ animation-delay: -3.6s;
+}
+@keyframes scale {
+ 0%, 40%, 100% {
+  transform: scaleY(0.1);
+ }
+
+ 20% {
+  transform: scaleY(1);
+ }
+}
+
+/* Block Loader */
+#loadbar_box {
+    display: flex;
+    width: 11.2em;
+}
+.loadbar_boxSegment {
+    width: 2em;
+    height: 2em;
+    background-color: #FDAED5;
+ 
+    border: #eeeeee solid 1px;
+ 
+    animation-name: loadBar_boxSeg;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: step-start;
+}
+#loadbar_box :nth-child(1) {
+    animation-delay: 0.1s;
+}
+#loadbar_box :nth-child(2) {
+    animation-delay: 0.2s;
+}
+#loadbar_box :nth-child(3) {
+    animation-delay: 0.3s;
+}
+#loadbar_box :nth-child(4) {
+    animation-delay: 0.4s;
+}
+#loadbar_box :nth-child(5) {
+    animation-delay: 0.5s;
+}
+/* ... */
+@keyframes loadBar_boxSeg {
+    0%      {background-color: #FDAED5;}
+    10%     {background-color: #B6DB92;}
+    20%     {background-color: #FDAED5;}
+}
+ 
