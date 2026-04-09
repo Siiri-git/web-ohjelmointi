@@ -41,8 +41,8 @@ section {
   padding-left: 3em;
   padding-top: 2em;
 
-  color: #85b159;
-  background-color: #B6DB92;
+  color: #667e51;
+  background-image: url(../images/greenbg.jpg);
   grid-area: section;
 }
 ul.a {
@@ -53,11 +53,11 @@ ul.a li {
 }
 ul.a li a {
 
-  color: #85b159;
+  color: #667e51;
   text-decoration: none;
 }
 ul.a li a:hover {
-  color: #FCF5E1;
+  color: #7b995e;
 }
 
 /* Main Area */
@@ -69,7 +69,9 @@ main {
     padding-top: 5em;
     padding-left: 3em;
 
-    background-color: #FCF5E1;
+    background-image: url(../images/polkadotbg.jpg);
+    background-attachment: fixed;
+    background-size: contain;
     grid-area: main;
 }
 
