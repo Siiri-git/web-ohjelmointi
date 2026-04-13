@@ -36,19 +36,21 @@
 </ul>
 
 <main>
+
   <section>
-    <h2>Muuttujat</h2>
-    <button onclick="plus()">3 plus 5</button>
+    <h2>Muuttujat</h2>  
+    <label for="nmbr1">First number:</label>
+    <input type="number" id="nmbr1" name="nmbr1">
+    <br><br>
+    <label for="nmbr2">Second number:</label>
+    <input type="number" id="nmbr2" name="nmbr2">
     <br>
-    <br>
-    <button onclick="minus()">5 minus 7</button>
-    <br>
-    <br>
-    <button onclick="multi()">7 times 15</button>
-    <br>
-    <br>
-    <button onclick="div()">15 divided by 3</button>
+    <button onclick="calc_sum()">+</button>
+    <button onclick="calc_subst()">-</button>
+    <button onclick="calc_times()">*</button>
+    <button onclick="calc_div()">/</button>
   </section>
+
 </main>
 
 </body>
