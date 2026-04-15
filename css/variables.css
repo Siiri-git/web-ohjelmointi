@@ -180,7 +180,7 @@
   background-color: #0D222F;
   position: fixed;
   height: 100%;
-  overflow: auto;
+  overflow-y: scroll;
 }
   ul li a {
   display: block;

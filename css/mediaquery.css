@@ -83,6 +83,8 @@
 }
 
 
+
+
 /* Under 640px */
 @media screen and (max-width: 640px) {
   body {
@@ -131,6 +133,16 @@
     color: #0D222F;
     font-size: 18px;
     font-family: "H Font";
+}
+
+  /* Normal Fonts */
+  @font-face {
+  font-family: "P Font";
+  src: url("../fonts/Delius-Regular.ttf");
+  font-weight: normal;
+}
+  p, a {
+    font-family: "P Font";
 }
 
   /* Navigation Bar */
