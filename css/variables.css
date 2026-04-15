@@ -96,12 +96,20 @@
     border-style: dashed;
   }
   /* Buttons */
-  button {
+  button.a {
     background-color: #142d3b;
     border-color: #F1C8D6;
     color: #F1C8D6;
     height: 2em;
     width: 2em;
+    margin-top: 1em;
+  }
+
+  button.b {
+    background-color: #142d3b;
+    border-color: #F1C8D6;
+    color: #F1C8D6;
+    width: auto;
     margin-top: 1em;
   }
 

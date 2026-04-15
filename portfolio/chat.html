@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="keywords" content="chat, messages, text">
+    <meta name="keywords" content="chat, msg, text">
     <meta name="description" content="Fake chat page">
     <meta name="author" content="Siiri">
 
@@ -44,28 +44,31 @@
 <dialog id="chat">
     <main> 
     <button class="a" commandfor="chat" command="close">Close</button>
-    <form method="post">
+    <form>
         <br>
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required><br><br>
+
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required><br><br>
+
         <label for="bday">Birthday:</label>
         <input type="date" id="bday" name="bday" required><br><br>
+
         <label for="type">Choose a message type:</label>
         <select name="type" id="type" required>
         <option value="question">Question</option>
         <option value="comment">Comment</option>
-        </select>
-        <br><br>
+        </select><br><br>
+
         <input type="checkbox" id="permission" name="permission" value="yes" required>
         <label for="permission">Given information can be used for marketing purposes</label><br>
-        <p><label for="messages">Message:</label></p>
-        <textarea id="messages" name="messages" rows="4" cols="50"></textarea>
-        <p>(fake submit, don't press)</p>
-        <input type="submit" value="Submit">
+
+        <p><label for="msg">Message:</label></p>
+        <textarea id="msg" name="msg" rows="4" cols="50"></textarea>
+
+        <button onclick="message(event)">Lähetä</button>
         <br>
-       
     </form>
     </main>
 </dialog>

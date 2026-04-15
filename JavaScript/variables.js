@@ -32,3 +32,4 @@ function calc_div() {
     var num2 = Number(document.getElementById("nmbr2").value);
     div(num1, num2)
 }
+
