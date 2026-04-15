@@ -83,11 +83,14 @@
 }
   /* Section */
   section {
-    margin: 1em;
+    margin-top: 1em;
+
     padding-top: 0;
     padding-left: 1em;
     padding-bottom: 1em;
+
     background-color: #F178A1;
+
     border-radius: 8px;
     border-color: #0D222F;
     border-style: dashed;
