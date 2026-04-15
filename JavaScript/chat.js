@@ -4,7 +4,7 @@ window.onload = function () {
 
 function message(e) {
     e.preventDefault();
-    
+
     let birthday = e.target.form.bday.value;
     let email = e.target.form.email.value;  
     let type = e.target.form.type.value;
@@ -15,6 +15,9 @@ function message(e) {
                 "msg type: " + type + "\n" + 
                 "permission of usage: " + permission + "\n" + 
                 "message: " + msg);
+
+    const form = document.getElementById("formi")
+    form.reset();
 
     const dialog = document.getElementById("chat")
     dialog.close();
