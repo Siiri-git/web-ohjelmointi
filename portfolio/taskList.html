@@ -2,26 +2,27 @@
 <html lang="fi">
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="video, madoka, wish">
-    <meta name="description" content="Clip of the hit series PMMM">
+    <meta name="keywords" content="to-do list, task list, JavaScript">
+    <meta name="description" content="to-do list">
     <meta name="author" content="Siiri">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="../images/favicon.png">
-    <title>Madoka's Wish</title>
-    <script src="../JavaScript/media.js" defer></script>
-    <link rel="stylesheet" href="../css/media.css">   
+    <title>Task list</title>
+    <script src="../JavaScript/taskList.js" defer></script>
+    <link rel="stylesheet" href="../css/taskList.css">
 </head>
 
 <body>
 
 <header>
-<h1 style="text-align: center;">MADOKA'S WISH</h1>
+    <h1>TASK LIST</h1>
 </header>
 
-<ul>
+<ul class="navi">
   <li><a href="../cv/cv.html">HOME / CV</a></li>
   <li><a href="homepage.html">PORTFOLIO</a></li>    
   <li><a href="../cv/workexp.html">WORK EXPERIENCE</a></li>
+  <li><a href="media.html">MADOKA'S WISH</a></li>
   <li><a href="chat.html">CHAT</a></li>
   <li><a href="../extra/regex.html">REGEX</a></li>
   <li><a href="../extra/kittyyy.html">NYAN CAT</a></li>
@@ -34,22 +35,18 @@
   <li><a href="../extra/animation.html">ANIMATION</a></li>
   <li><a href="mediaquery.html">MEDIA QUERY</a></li>
   <li><a href="variables.html">VARIABLES</a></li>
-  <li><a href="taskList.html">TASK LIST</a></li>
 </ul>
 
 <main>
-<aside>
-  <img src="../images/madoka-homura.jpg" alt="Madoka and Homura">
-</aside>
+    <p>Kirjoita jotain ja paina "add"</p>
 
-<article>
-    <video width="700" height="420" controls loop poster="../images/moe-madohomu.jpg" autoplay muted>
-  <source src="../images/madokas-wish.mp4" type="video/mp4">
-</video>
-</article>
+    <ul id="ulList">
 
-<img src="../images/madohomu-nendoroid.png" style="width: 300px;">
+    </ul>
+    <input type="text" id="smth" name="smth">
+    <button onclick="addList()">ADD</button>
 </main>
-<button class="testbtn"onclick="alert('Meow!')">/ᐠ˵- ⩊ -˵マ &hearts;</button>
+
 </body>
+
 </html>

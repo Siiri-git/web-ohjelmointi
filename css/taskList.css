@@ -1,0 +1,195 @@
+/* Over 640px */
+@media screen and (min-width: 640px) {
+  body {
+    background-color: #F1C8D6;
+    margin: 0;
+    padding: 0;
+}
+  main {
+    margin-left: 1em;
+    padding: 1px 16px;
+}
+
+  /* Header */
+  header {
+    font-family: "H Font";
+    font-weight: 800;
+    font-style: normal;
+    background-color: #F178A1;
+    padding: 0.1%;
+    font-size: 25px;
+    text-align: center;
+}
+
+  /* Header Text */
+  @font-face {
+  font-family: "H Font";
+  src: url("../fonts/Starshines.ttf");
+  font-weight: normal;
+}
+  h1 {
+    color: #0D222F;
+    font-size: 32px;
+    font-family: "H Font";
+}
+  h2 {
+    color: #0D222F;
+    font-size: 26px;
+    font-family: "H Font";
+}
+  h3 {
+    color: #0D222F;
+    font-size: 22px;
+    font-family: "H Font";
+}
+  h4 {
+    color: #0D222F;
+    font-size: 18px;
+    font-family: "H Font";
+}
+
+  /* Normal Fonts */
+  @font-face {
+  font-family: "P Font";
+  src: url("../fonts/Delius-Regular.ttf");
+  font-weight: normal;
+}
+  p, a, button, li {
+    font-family: "P Font";
+}
+
+  /* Navigation Bar */
+  ul.navi {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0D222F;
+}
+  ul.navi li {
+  float: left;
+}
+  ul.navi li a {
+  display: block;
+  color: #F178A1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  ul.navi li a:hover {
+  background-color: #142d3b;
+  color: #F1C8D6;
+}
+
+/* Buttons */
+  button {
+  color: #F178A1;
+  background-color: #142d3b;
+  border-color: #F178A1;
+}
+  input {
+  color: #F178A1;
+  background-color: #142d3b;
+  border-color: #F178A1;
+  border-style: solid;
+  }
+}
+
+
+
+
+/* Under 640px */
+@media screen and (max-width: 640px) {
+  body {
+    background-color: #F1C8D6;
+    margin: 0;
+    padding: 0;
+}
+  main {
+    margin-left: 10em;
+    padding: 1px 16px;
+}
+
+  /* Header */
+  header {
+    font-family: "H Font";
+    font-weight: 800;
+    font-style: normal;
+    background-color: #F178A1;
+    padding: 0.1%;
+    font-size: 25px;
+    text-align: center;
+}
+
+  /* Header Text */
+  @font-face {
+  font-family: "H Font";
+  src: url("../fonts/Starshines.ttf");
+  font-weight: normal;
+}
+  h1 {
+    color: #0D222F;
+    font-size: 32px;
+    font-family: "H Font";
+}
+  h2 {
+    color: #0D222F;
+    font-size: 26px;
+    font-family: "H Font";
+}
+  h3 {
+    color: #0D222F;
+    font-size: 22px;
+    font-family: "H Font";
+}
+  h4 {
+    color: #0D222F;
+    font-size: 18px;
+    font-family: "H Font";
+}
+
+  /* Normal Fonts */
+  @font-face {
+  font-family: "P Font";
+  src: url("../fonts/Delius-Regular.ttf");
+  font-weight: normal;
+}
+  p, a, button, li {
+    font-family: "P Font";
+}
+
+  /* Navigation Bar */
+  ul.navi {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 10em;
+  background-color: #0D222F;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+  ul.navi li a {
+  display: block;
+  color: #F178A1;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+  ul.navi li a:hover {
+  background-color: #142d3b;
+  color: #F1C8D6;
+}
+
+  /* Buttons */
+  button {
+  color: #F178A1;
+  background-color: #142d3b;
+  border-color: #F178A1;
+}
+  input {
+  color: #F178A1;
+  background-color: #142d3b;
+  border-color: #F178A1;
+  border-style: solid;
+  }
+}
