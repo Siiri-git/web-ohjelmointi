@@ -46,7 +46,7 @@ function luoRivit() {
         nameId.innerHTML = henkilo.name;
         ageId.innerHTML = henkilo.age;
         jobId.innerHTML = henkilo.job;
-        driversLicenseId = henkilo.driversLicense;
+        driversLicenseId.innerHTML = henkilo.driversLicense;
 
         rivi.append(nameId, ageId, jobId, driversLicenseId);
         rivit.append(rivi);
