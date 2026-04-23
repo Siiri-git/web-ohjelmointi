@@ -11,9 +11,11 @@ function updateList() {
 
 function addList() {
     const newTask = document.getElementById("smth").value;
-
+    const taskAmount = document.getElementById("nmbr").value;
     if (newTask != "") {
+        for (var i = 0; i < taskAmount; i++) {
         tasks.push(newTask);
+        };
+    updateList();        
     }
-    updateList();
 }
