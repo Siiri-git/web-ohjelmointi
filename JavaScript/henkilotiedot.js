@@ -44,8 +44,18 @@ function luoRivit() {
         var driversLicenseId = document.createElement("td");
 
         nameId.innerHTML = henkilo.name;
-        ageId.innerHTML = henkilo.age;
-        jobId.innerHTML = henkilo.job;
+        if (henkilo.age >= 18) {
+            ageId.innerHTML = `${henkilo.age}🍺`;
+        }
+        else {
+            ageId.innerHTML = henkilo.age;
+        }
+        if (henkilo.job == 'Opiskelija') {
+            jobId.innerHTML = `${henkilo.job}🎓`;
+        }
+        else {
+            jobId.innerHTML = henkilo.job;
+        }
         driversLicenseId.innerHTML = henkilo.driversLicense;
 
         rivi.append(nameId, ageId, jobId, driversLicenseId);
@@ -54,3 +64,27 @@ function luoRivit() {
 }
 
 document.addEventListener("DOMContentLoaded", luoRivit());
+
+
+function newPerson(e) {
+    e.preventDefault();
+
+    let nName = e.target.form.inpName.value;
+    let nAge = Number(e.target.form.inpAge.value);  
+    let nJob = e.target.form.inpJob.value;
+    let nLicense = e.target.form.inpLicense.checked;
+
+    if (nAge < 0) {
+        alert("Iän pitää olla positiivinen luku!")
+    }
+    else {
+        const person = {
+            name: nName,
+            age: nAge,
+            job: nJob,
+            driversLicense: nLicense
+        }
+        henkilot.push(person)
+        luoRivit()
+    }
+}

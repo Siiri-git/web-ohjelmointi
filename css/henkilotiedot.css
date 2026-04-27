@@ -55,7 +55,7 @@
   src: url("../fonts/Delius-Regular.ttf");
   font-weight: normal;
 }
-  p, a, button, li, th, td {
+  p, a, button, li, th, td, label {
     font-family: "P Font";
     color: #7F5836;
 }
@@ -86,12 +86,13 @@
 /* Buttons */
   button {
   color: #443025;
-  background-color: #142d3b;
+  background-color: #fdb9ba;
   border-color: #443025;
 }
   input {
   color: #443025;
-  background-color: #142d3b;
+  border-radius: 8px;
+  background-color: #fdb9ba;
   border-color: #443025;
   border-style: solid;
   }
@@ -156,7 +157,7 @@
   src: url("../fonts/Delius-Regular.ttf");
   font-weight: normal;
 }
-  p, a, button, li, th, td {
+  p, a, button, li, th, td, label {
     font-family: "P Font";
     color: #7F5836;
 }
@@ -186,12 +187,13 @@
   /* Buttons */
   button {
   color: #443025;
-  background-color: #142d3b;
+  background-color: #fdb9ba;
   border-color: #443025;
 }
   input {
   color: #443025;
-  background-color: #142d3b;
+  border-radius: 8px;
+  background-color: #fdb9ba;
   border-color: #443025;
   border-style: solid;
   }

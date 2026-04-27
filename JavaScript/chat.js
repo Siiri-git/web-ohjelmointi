@@ -6,7 +6,7 @@ function message(e) {
     e.preventDefault();
 
     let birthday = e.target.form.bday.value;
-    let email = e.target.form.email.value;  
+    let email = e.target.form.email.value;
     let type = e.target.form.type.value;
     let permission = e.target.form.permission.value;
     let msg = e.target.form.msg.value;
