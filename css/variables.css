@@ -54,7 +54,7 @@
   src: url("../fonts/Delius-Regular.ttf");
   font-weight: normal;
 }
-  p, a, label {
+  p, a, label, button, div {
     font-family: "P Font";
 }
 
@@ -178,7 +178,7 @@
   src: url("../fonts/Delius-Regular.ttf");
   font-weight: normal;
 }
-  p, a, label {
+  p, a, label, button, div {
     font-family: "P Font";
 }
 
