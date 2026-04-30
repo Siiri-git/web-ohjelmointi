@@ -59,24 +59,24 @@
 }
 
   /* Navigation Bar */
-  ul {
+  ul.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #0D222F;
 }
-  ul li {
+  ul.nav li {
   float: left;
 }
-  ul li a {
+  ul.nav li a {
   display: block;
   color: #F178A1;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-  ul li a:hover {
+  ul.nav li a:hover {
   background-color: #142d3b;
   color: #F1C8D6;
 }
@@ -183,7 +183,7 @@
 }
 
   /* Navigation Bar */
-  ul {
+  ul.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -191,15 +191,15 @@
   background-color: #0D222F;
   position: fixed;
   height: 100%;
-  overflow-y: scroll;
+  overflow: auto;
 }
-  ul li a {
+  ul.nav li a {
   display: block;
   color: #F178A1;
   padding: 8px 16px;
   text-decoration: none;
 }
-  ul li a:hover {
+  ul.nav li a:hover {
   background-color: #142d3b;
   color: #F1C8D6;
 }

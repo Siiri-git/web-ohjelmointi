@@ -19,7 +19,7 @@
   <h1>variables</h1>
 </header>
 
-<ul>
+<ul class="nav">
   <li><a href="homepage.html">PORTFOLIO</a></li>        
   <li><a href="../cv/cv.html">HOME / CV</a></li>
   <li><a href="../cv/workexp.html">WORK EXPERIENCE</a></li>
@@ -43,7 +43,7 @@
 </ul>
 
 <main>
-
+  <!-- Calc section -->
   <section>
     <h2>MUUTTUJAT</h2>  
     <label for="nmbr1">First number:</label>
@@ -58,6 +58,7 @@
     <button onclick="calc_div()">/</button>
   </section>
 
+  <!-- Datetime section -->
   <button class="b" onclick="dateTime()">Päivämäärä</button>
     <div id="date">
     </div>
@@ -74,6 +75,35 @@
     <div id="month">
     </div>
 
+  <!-- Set section -->
+    <section id="veijo">
+      <h2>Veijo</h2>
+      <ul></ul>      
+    </section>
+
+    <section id="elvira">
+      <h2>ElvirA</h2>
+      <ul></ul>
+    </section>
+
+    <section id="mehdi">
+      <h2>Mehdi</h2>
+      <ul></ul>
+    </section>
+
+    <section id="tuuli">
+      <h2>Tuuli</h2>
+      <ul></ul>
+    </section>
+
+    <p>Veijon ja Tuulen kaikki oikeudet:</p>
+    <ul id="veijotuuli"></ul>
+
+    <p>Mehdin ja Elviran yhteiset oikeudet:</p>
+    <ul id="mehdielvira"></ul>
+    
+    <p>Elviran ja Tuulin oikeudet, joita toisella ei ole:</p>
+    <ul id="elviratuuli"></ul>
 </main>
 
 </body>
