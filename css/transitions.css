@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Area */
+main {
+    margin-left: 10em;
+    padding: 1px 16px;
+}
+
+/* Header */
+header {
+    font-family: "H Font";
+    font-weight: 800;
+    font-style: normal;
+    background-color: #F178A1;
+    padding: 0.1%;
+    font-size: 25px;
+    text-align: center;
+}
+@font-face {
+  font-family: "H Font";
+  src: url("../fonts/Starshines.ttf");
+  font-weight: normal;
+}
+h1 {
+    color: #0D222F;
+    font-size: 32px;
+    font-family: "H Font";
+}
+
+/* Normal Fonts */
+@font-face {
+  font-family: "P Font";
+  src: url("../fonts/Delius-Regular.ttf");
+  font-weight: normal;
+}
+p, a, label, button, div {
+    font-family: "P Font";
+}
+
+/* Navigation */
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 10em;
+  background-color: #0D222F;
+  position: fixed;
+  height: 100%;
+  overflow-y: scroll;
+}
+  ul li a {
+  display: block;
+  color: #F178A1;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+  ul li a:hover {
+  background-color: #142d3b;
+  color: #F1C8D6;
+}
+
+/* Squares */
+  /* Red Square */
+  div.redSqr {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: background-color 1.5s, transform 1.5s;
+  }
+
+  div.redSqr:hover {
+  background-color: purple;  
+  transform: rotate(180deg);
+  }
+  /* Green Square */
+  div.greenSqr {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  transition: background-color 1.5s, transform 1.5s;
+  }
+
+  div.greenSqr:hover {
+  background-color: orange;  
+  transform: scale(120%);
+  }
+  /* Blue Square */
+  div.blueSqrCage {
+  perspective: 100px;
+  width: 100px;
+  height: 100px;
+  }
+  div.blueSqr {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transition: transform-style 2s, background-color 2s, transform 2s;
+  }
+
+  div.blueSqr:hover {
+  transform-style: preserve-3d;
+  background-color: cyan;  
+  transform: rotateY(180deg);
+  }
