@@ -12,10 +12,55 @@ function multi(x, y) {
 function div(x, y) {
     alert(x / y);
 }
+function abs(x) {
+    alert(Math.abs(x))
+}
+function sqrt(x) {
+    alert(Math.sqrt(x))
+}
+function pow(x, y) {
+    alert(Math.pow(x, y))
+}
+function max(x, y) {
+    alert(Math.max(x, y))
+}
+function min(x, y) {
+    alert(Math.min(x, y))
+}
+function round(x) {
+    alert(Math.round(x))
+}
+function calc_round() {
+    var num1 = Number(document.getElementById("nmbr1").value);   
+    round(num1)
+}
   // Functions
+function calc_min() {
+    var num1 = Number(document.getElementById("nmbr1").value);
+    var num2 = Number(document.getElementById("nmbr2").value);    
+    min(num1, num2)
+}
+function calc_max() {
+    var num1 = Number(document.getElementById("nmbr1").value);
+    var num2 = Number(document.getElementById("nmbr2").value);    
+    max(num1, num2)
+}
+function calc_pow() {
+    var num1 = Number(document.getElementById("nmbr1").value);
+    var num2 = Number(document.getElementById("nmbr2").value);    
+    pow(num1, num2)
+}
+function calc_sqrt() {
+    var num1 = Number(document.getElementById("nmbr1").value);   
+    sqrt(num1)
+}
+function calc_abs() {
+    var num1 = Number(document.getElementById("nmbr1").value);   
+    abs(num1)
+}
 function calc_sum() {
     var num1 = Number(document.getElementById("nmbr1").value);
-    var num2 = Number(document.getElementById("nmbr2").value);
+    var num2 = Number(document.getElementById("nmbr2").value);    
     plus(num1, num2)
 }
 function calc_subst() {
