@@ -19,73 +19,94 @@
     <h1>MERKKIJONOT</h1>
 </header>
 <!--Nav Bar-->
+<ul class="nav">
+  <li><a href="homepage.html">PORTFOLIO</a></li>        
+  <li><a href="../cv/cv.html">HOME / CV</a></li>
+  <li><a href="../cv/workexp.html">WORK EXPERIENCE</a></li>
+  <li><a href="media.html">MADOKA'S WISH</a></li>
+  <li><a href="chat.html">CHAT</a></li>
+  <li><a href="cssTesting.html">CSS TESTING</a></li>
 
+  <li><a href="flex.html">FLEX</a></li>
+  <li><a href="grid.html">GRID</a></li>
+  <li><a href="mediaquery.html">MEDIA QUERY</a></li>
+  <li><a href="taskList.html">TASK LIST</a></li>
+  <li><a href="henkilotiedot.html">HENKILÖTIEDOT</a></li>
+
+  <li><a href="../extra/animation.html">ANIMATION</a></li> 
+  <li><a href="../extra/regex.html">REGEX</a></li>
+  <li><a href="../extra/kittyyy.html">NYAN CAT</a></li>
+  <li><a href="../extra/shapes.html">SHAPES</a></li>
+  <li><a href="../extra/svgGraph.html">GRAPH</a></li>   
+  <li><a href="../extra/house.html">HOUSE LAYOUT</a></li>
+  <li><a href="../extra/transitions.html">TRANSITIONS</a></li>
+</ul>
 <!--Main Area-->
 <main>
 <!-- Poiminta -->
-<section>
+<span class="a">
     <h3 style="text-align: center;">Poimi KirjAin</h3>
     <label>Word:</label>
-    <input type="text" id="word"> <br>
+    <input type="text" id="word"> <br><br>
     <label>Number:</label>
     <input type="number" id="nmbr"> <br>
     <button class="b" onclick="get_letter()">Check letter's place</button>
     <div id="letrSpot"></div>
-</section>
+</span>
+
 <!-- Index löytö -->
-<section>
+<span class="a">
     <h3 style="text-align: center;">LöydÄ indeksi</h3>
     <label>Text:</label>
-    <input type="text" id="text"> <br>
+    <input type="text" id="text"> <br><br>
     <label>Letter(s):</label>
     <input type="text" id="letters"> <br>
     <button class="b" onclick="get_index()">Show place</button>
     <div id="indexSpot"></div>
-</section>
+</span>
 <!-- String slice -->
-<section>
+<span class="a">
     <h3 style="text-align: center;">LeikkAA merkkijono</h3>
     <label>Sring:</label>
     <input type="text" id="string"> 
-    <br>
+    <br><br>
     <label>Position 1:</label>
     <input type="number" id="posOne">
-    <br>
+    <br><br>
     <label>Position 2:</label>
     <input type="number" id="posTwo"> 
     <br>
     <button class="b" onclick="get_slice()">Show results</button>
     <div id="cutString"></div>
-</section>
+</span>
 <!-- Replace -->
-<section>
+<span class="a">
     <h3 style="text-align: center;">Etsi jA korvAA</h3>
     <label>Text:</label>
-    <input type="text" id="givenTxt"> 
-    <br>
+    <input class="b" type="text" id="givenTxt"> 
+    <br><br>
     <label>Replace:</label>
-    <input type="text" id="replace">
-    <br>
+    <input class="b" type="text" id="replace">
+    <br><br>
     <label>Replacement:</label>
-    <input type="text" id="replacement"> 
+    <input class="b" type="text" id="replacement"> 
     <br>
     <button class="b" onclick="get_replacement()">Show results</button>
     <div id="replacementSpot"></div>
-</section>
+</span>
 
-<section>
+<span class="a">
     <h3 style="text-align: center;">Poikki jA pinoon</h3>
     <label>Text:</label>
     <input type="text" id="splitTxt">
-    <br>
+    <br><br>
     <label>Split spot:</label>
     <input type="text" id="splitSpot">
     <br>
     <button class="b" onclick="split_position()">Show results</button>
     <ul id="listSpot"></ul>
-</section>
+</span>
 
 </main>
-
 </body>
 </html>
