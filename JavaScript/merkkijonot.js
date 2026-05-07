@@ -23,6 +23,44 @@ function get_index() {
 }
 
 // Leikkaa merkkijono
-function slice_string() {
-    
+function slice_position(x, y, z) {
+    var cutString = document.getElementById("cutString");
+    let sliced = x.slice(y, z);
+    cutString.innerHTML = sliced;
+}
+function get_slice() {
+    var string = document.getElementById("string").value;
+    var posOne = Number(document.getElementById("posOne").value);
+    var posTwo = Number(document.getElementById("posTwo").value);
+    slice_position(string, posOne, posTwo);
+}
+
+// Replacement
+function replace_spot(x, y, z) {
+    var replacementSpot = document.getElementById("replacementSpot");
+    let replace = x.replaceAll(y, z);
+    replacementSpot.innerHTML = replace;
+}
+function get_replacement() {
+    var givenTxt = document.getElementById("givenTxt").value;
+    var replace = document.getElementById("replace").value;
+    var replacement = document.getElementById("replacement").value;
+    replace_spot(givenTxt, replace, replacement);
+}
+
+
+function split_position() {
+    const listSpot = document.getElementById("listSpot");
+
+    const splitTxt = document.getElementById("splitTxt").value;
+    const splitSpot = document.getElementById("splitSpot").value;
+
+    const txtSplit = splitTxt.split(splitSpot);
+
+    listSpot.innerHTML = "";
+    txtSplit.forEach(element => {
+        var newLi = document.createElement("li");
+        newLi.innerHTML = element;
+        listSpot.append(newLi);
+    });
 }

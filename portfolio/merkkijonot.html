@@ -22,7 +22,7 @@
 
 <!--Main Area-->
 <main>
-
+<!-- Poiminta -->
 <section>
     <h3 style="text-align: center;">Poimi KirjAin</h3>
     <label>Word:</label>
@@ -32,7 +32,7 @@
     <button class="b" onclick="get_letter()">Check letter's place</button>
     <div id="letrSpot"></div>
 </section>
-
+<!-- Index löytö -->
 <section>
     <h3 style="text-align: center;">LöydÄ indeksi</h3>
     <label>Text:</label>
@@ -42,20 +42,47 @@
     <button class="b" onclick="get_index()">Show place</button>
     <div id="indexSpot"></div>
 </section>
-
+<!-- String slice -->
 <section>
-    <h3>LeikkAA merkkijono</h3>
+    <h3 style="text-align: center;">LeikkAA merkkijono</h3>
     <label>Sring:</label>
     <input type="text" id="string"> 
     <br>
     <label>Position 1:</label>
-    <input type="number" id="pos1">
+    <input type="number" id="posOne">
     <br>
     <label>Position 2:</label>
-    <input type="number" id="pos2"> 
+    <input type="number" id="posTwo"> 
     <br>
-    <button class="b" onclick="">Show result</button>
+    <button class="b" onclick="get_slice()">Show results</button>
     <div id="cutString"></div>
+</section>
+<!-- Replace -->
+<section>
+    <h3 style="text-align: center;">Etsi jA korvAA</h3>
+    <label>Text:</label>
+    <input type="text" id="givenTxt"> 
+    <br>
+    <label>Replace:</label>
+    <input type="text" id="replace">
+    <br>
+    <label>Replacement:</label>
+    <input type="text" id="replacement"> 
+    <br>
+    <button class="b" onclick="get_replacement()">Show results</button>
+    <div id="replacementSpot"></div>
+</section>
+
+<section>
+    <h3 style="text-align: center;">Poikki jA pinoon</h3>
+    <label>Text:</label>
+    <input type="text" id="splitTxt">
+    <br>
+    <label>Split spot:</label>
+    <input type="text" id="splitSpot">
+    <br>
+    <button class="b" onclick="split_position()">Show results</button>
+    <ul id="listSpot"></ul>
 </section>
 
 </main>
