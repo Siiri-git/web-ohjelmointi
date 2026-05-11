@@ -60,6 +60,8 @@
 
   /* Navigation Bar */
   ul.nav {
+  position: sticky;
+  top: 0;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -136,6 +138,8 @@
 
   /* Header */
   header {
+    position: sticky;
+    top: 0;
     font-family: "H Font";
     font-weight: 800;
     font-style: normal;
