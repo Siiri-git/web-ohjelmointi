@@ -75,6 +75,7 @@ function reverseStuff(type) {
 }
 
 // 5 osio
+
 function printNumbers() {
     const listSpot = document.getElementById("spotFive");
 
@@ -85,12 +86,22 @@ function printNumbers() {
         listSpot.append(numberLi);
     });
 }
-function chooseNumbers(type) {
-    var limit = Number(document.getElementById.apply("usrNmbr").value);
-    if(type === "small"){
-        
-    };
-    if(type === "big"){
-        
-    };
+var compValue = 0;
+function largerThan(value) {
+    return(value > compValue);
+}
+function lessThan(value) {
+    return(value < compValue)
+}
+
+function filterLarger() {
+    const usrNum = Number(document.getElementById("usrNmbr").value);
+    compValue = usrNum;
+    numbers = numbers.filter(largerThan);
+}
+
+function filterLess() {
+    const usrNum = Number(document.getElementById("usrNmbr").value);
+    compValue = usrNum;
+    numbers = numbers.filter(lessThan);
 }
