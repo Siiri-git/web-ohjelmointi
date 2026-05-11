@@ -75,17 +75,18 @@ function reverseStuff(type) {
 }
 
 // 5 osio
-
+var newList = [];
 function printNumbers() {
     const listSpot = document.getElementById("spotFive");
 
-    listSpot.innerHTML = ""
-    numbers.forEach(number => {
+    listSpot.innerHTML = "";
+    newList.forEach(number => {
         var numberLi = document.createElement("li");
         numberLi.innerHTML = number;
         listSpot.append(numberLi);
     });
 }
+
 var compValue = 0;
 function largerThan(value) {
     return(value > compValue);
@@ -97,11 +98,10 @@ function lessThan(value) {
 function filterLarger() {
     const usrNum = Number(document.getElementById("usrNmbr").value);
     compValue = usrNum;
-    numbers = numbers.filter(largerThan);
+    newList = numbers.filter(largerThan);
 }
-
 function filterLess() {
     const usrNum = Number(document.getElementById("usrNmbr").value);
     compValue = usrNum;
-    numbers = numbers.filter(lessThan);
+    newList = numbers.filter(lessThan);
 }
